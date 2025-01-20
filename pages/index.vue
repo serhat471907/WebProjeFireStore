@@ -21,7 +21,7 @@
     <Footer />
     </div>
 </template>
-
+<!-- index vue dosyası düzenlendi -->
 <script>
 import navbar from './components/mavbar.vue';
 import topMenu from './components/topMenu.vue';
