@@ -11,7 +11,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   onAuthStateChanged(auth, (user) => {
     isLoggedIn.value = !!user; // Kullanıcı varsa true, yoksa false
   });
-
+// firebase ile ilgili işlemler ayarlandı
   // Global olarak auth ve kullanıcı durumunu sağla
   nuxtApp.provide('auth', auth);
   nuxtApp.provide('isLoggedIn', isLoggedIn);
