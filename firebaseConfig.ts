@@ -12,7 +12,7 @@ const firebaseConfig = {
   appId: "1:1081508991719:web:1f232bab85e73d28e28842",
   measurementId: "G-JZTBW0CYLM"
 };
-
+// serhatın api keyi eklendi
 const firebaseApp = initializeApp(firebaseConfig);
 const auth = getAuth(firebaseApp);
 const db = getFirestore(firebaseApp);
