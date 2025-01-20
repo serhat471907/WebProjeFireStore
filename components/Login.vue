@@ -8,6 +8,7 @@
           <span key="signup">Üye ol</span>
         </RouterLink>
       </div>
+      <!-- firebase ile kullanıcı girişi sağlandı -->
       <form @submit.prevent="handleSubmit">
         <div class="input-field">
           <input v-model="email" type="email" id="email" placeholder="E-posta adresi" required />
