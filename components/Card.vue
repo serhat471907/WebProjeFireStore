@@ -1,5 +1,6 @@
 <template>
   <v-container>
+  
     <v-row class="d-flex justify-between align-center" :style="{ padding: '20px' }">
       <!-- Ürünler Dizisini Döngüyle Göster -->
       <v-col v-for="(product, index) in products" :key="index" cols="6" sm="4" md="2">
@@ -9,6 +10,7 @@
           height="400"
           class="product-card"
         >
+        <!-- firestore ile ürün databaseden çekiliyor -->
           <!-- Ürün Resmi -->
           <v-img
             :src="hovered[index] ? product.hoverImage : product.image"
